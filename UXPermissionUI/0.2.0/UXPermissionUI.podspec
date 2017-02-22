@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/eddy-lau/UXPermissionUI'
+  s.homepage         = 'https://github.com/uxap/UXPermissionUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'eddy-lau' => 'eddie@touchutility.com' }
-  s.source           = { :git => 'https://github.com/eddy-lau/UXPermissionUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/uxap/UXPermissionUI.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'UXPermissionUI/{Classes,Protocols}/**/*'
   
