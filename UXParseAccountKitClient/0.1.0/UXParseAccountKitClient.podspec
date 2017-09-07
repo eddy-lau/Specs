@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/eddy-lau/UXParseAccountKitClient.git', :tag => '0.1.0' }
   spec.source_files = 'UXParseAccountKitClient.swift'
   spec.ios.deployment_target  = '8.0'
-  spec.dependency 'AccountKit'
+  spec.frameworks   = "AccountKit"
+  spec.dependency 'AccountKit', "~> 4.11.0"
 end
